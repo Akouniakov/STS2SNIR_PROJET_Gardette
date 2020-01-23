@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Projet_Gardette_MES" company="" webLink="http://" view-date="2019-12-30" view-index="0" gantt-divider-location="631" resource-divider-location="300" version="2.8.10" locale="fr">
+    <description/>
+    <view zooming-state="default:7" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="443" order="0"/>
+        <field id="tpd4" name="Date de début" width="92" order="1"/>
+        <field id="tpd5" name="Date de fin" width="92" order="2"/>
+        <option id="color.recent"><![CDATA[#000000 #ffff00 #0000ff #ff0000 #00ff00]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="210" order="0"/>
+        <field id="1" name="Rôle par défaut" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="1" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+        <date year="2020" month="2" date="23" type="HOLIDAY"><![CDATA[Vacances sur 23/02/20 00:00]]></date>
+        <date year="2020" month="2" date="24" type="HOLIDAY"><![CDATA[Vacances sur 24/02/20 00:00]]></date>
+        <date year="2020" month="2" date="25" type="HOLIDAY"><![CDATA[Vacances sur 25/02/20 00:00]]></date>
+        <date year="2020" month="2" date="27" type="HOLIDAY"><![CDATA[Vacances sur 27/02/20 00:00]]></date>
+        <date year="2020" month="2" date="26" type="HOLIDAY"><![CDATA[Vacances sur 26/02/20 00:00]]></date>
+        <date year="2020" month="2" date="28" type="HOLIDAY"><![CDATA[Vacances sur 28/02/20 00:00]]></date>
+        <date year="2020" month="3" date="1" type="HOLIDAY"><![CDATA[Vacances sur 01/03/20 00:00]]></date>
+        <date year="2020" month="2" date="29" type="HOLIDAY"><![CDATA[Vacances sur 29/02/20 00:00]]></date>
+        <date year="2020" month="3" date="2" type="HOLIDAY"><![CDATA[Vacances sur 02/03/20 00:00]]></date>
+        <date year="2020" month="3" date="3" type="HOLIDAY"><![CDATA[Vacances sur 03/03/20 00:00]]></date>
+        <date year="2020" month="3" date="4" type="HOLIDAY"><![CDATA[Vacances sur 04/03/20 00:00]]></date>
+        <date year="2020" month="3" date="5" type="HOLIDAY"><![CDATA[Vacances sur 05/03/20 00:00]]></date>
+        <date year="2020" month="3" date="6" type="HOLIDAY"><![CDATA[Vacances sur 06/03/20 00:00]]></date>
+        <date year="2020" month="3" date="7" type="HOLIDAY"><![CDATA[Vacances sur 07/03/20 00:00]]></date>
+        <date year="2020" month="3" date="8" type="HOLIDAY"><![CDATA[Vacances sur 08/03/20 00:00]]></date>
+        <date year="2020" month="4" date="18" type="HOLIDAY"><![CDATA[Vacances sur 18/04/20 00:00]]></date>
+        <date year="2020" month="4" date="19" type="HOLIDAY"><![CDATA[Vacances sur 19/04/20 00:00]]></date>
+        <date year="2020" month="4" date="20" type="HOLIDAY"><![CDATA[Vacances sur 20/04/20 00:00]]></date>
+        <date year="2020" month="4" date="21" type="HOLIDAY"><![CDATA[Vacances sur 21/04/20 00:00]]></date>
+        <date year="2020" month="4" date="22" type="HOLIDAY"><![CDATA[Vacances sur 22/04/20 00:00]]></date>
+        <date year="2020" month="4" date="23" type="HOLIDAY"><![CDATA[Vacances sur 23/04/20 00:00]]></date>
+        <date year="2020" month="4" date="24" type="HOLIDAY"><![CDATA[Vacances sur 24/04/20 00:00]]></date>
+        <date year="2020" month="4" date="25" type="HOLIDAY"><![CDATA[Vacances sur 25/04/20 00:00]]></date>
+        <date year="2020" month="4" date="26" type="HOLIDAY"><![CDATA[Vacances sur 26/04/20 00:00]]></date>
+        <date year="2020" month="4" date="27" type="HOLIDAY"><![CDATA[Vacances sur 27/04/20 00:00]]></date>
+        <date year="2020" month="4" date="28" type="HOLIDAY"><![CDATA[Vacances sur 28/04/20 00:00]]></date>
+        <date year="2020" month="4" date="29" type="HOLIDAY"><![CDATA[Vacances sur 29/04/20 00:00]]></date>
+        <date year="2020" month="4" date="30" type="HOLIDAY"><![CDATA[Vacances sur 30/04/20 00:00]]></date>
+        <date year="2020" month="5" date="1" type="HOLIDAY"><![CDATA[Vacances sur 01/05/20 00:00]]></date>
+        <date year="2020" month="5" date="2" type="HOLIDAY"><![CDATA[Vacances sur 02/05/20 00:00]]></date>
+        <date year="2020" month="5" date="3" type="HOLIDAY"><![CDATA[Vacances sur 03/05/20 00:00]]></date>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="90" name="Groupe entier" color="#8cb6ce" meeting="false" project="true" start="2020-01-02" duration="2" complete="0" thirdDate="2020-01-02" thirdDate-constraint="0" expand="true">
+            <task id="0" name="Mael" color="#000000" meeting="false" start="2020-01-02" duration="2" complete="0" thirdDate="2020-01-14" thirdDate-constraint="0" expand="true"/>
+            <task id="3" name="Daniel" color="#ff0000" meeting="false" start="2020-01-02" duration="2" complete="0" thirdDate="2020-01-14" thirdDate-constraint="0" expand="true"/>
+            <task id="5" name="Paul" color="#00ff00" meeting="false" start="2020-01-02" duration="2" complete="0" thirdDate="2020-01-14" thirdDate-constraint="0" expand="true"/>
+            <task id="7" name="Ibrahim" color="#0000ff" meeting="false" start="2020-01-02" duration="2" complete="0" thirdDate="2020-01-14" thirdDate-constraint="0" expand="true"/>
+            <task id="9" name="Baptiste" color="#ffff00" meeting="false" start="2020-01-02" duration="2" complete="0" thirdDate="2020-01-14" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="13" name="T1.1. Analyse du cahier des charges" color="#8cb6ce" meeting="false" start="2020-01-06" duration="4" complete="0" thirdDate="2020-01-14" thirdDate-constraint="0" expand="true"/>
+        <task id="25" name="T1.2. Modelisation du systeme" color="#00ff00" meeting="false" start="2020-01-06" duration="8" complete="0" thirdDate="2020-01-02" thirdDate-constraint="0" expand="true"/>
+        <task id="26" name="T1.3. Choix des diverses interfaces et du materiel" color="#8cb6ce" meeting="false" start="2020-01-06" duration="12" complete="0" thirdDate="2020-01-02" thirdDate-constraint="0" expand="true"/>
+        <task id="28" name="T2.1. S’approprier les environnements de développement" color="#8cb6ce" meeting="false" start="2020-01-13" duration="8" complete="0" thirdDate="2020-01-02" thirdDate-constraint="0" expand="true"/>
+        <task id="37" name="T2.2. Installation et configurer le système de gestion de Bdd" color="#000000" meeting="false" start="2020-01-27" duration="4" complete="0" thirdDate="2020-01-02" thirdDate-constraint="0" expand="true"/>
+        <task id="38" name="T3. Modélisation de la base de donnée" color="#000000" meeting="false" start="2020-02-03" duration="4" complete="0" thirdDate="2020-01-02" thirdDate-constraint="0" expand="true"/>
+        <task id="41" name="T4. Création et test la Bdd" color="#000000" meeting="false" start="2020-02-10" duration="4" complete="0" thirdDate="2020-01-02" thirdDate-constraint="0" expand="true"/>
+        <task id="44" name="T5. Creation de la solution pour le comptage des pieces" color="#000000" meeting="false" start="2020-02-17" duration="4" complete="0" thirdDate="2020-01-02" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[T5.Creation de la solution pour le comptage des pieces produites en pesant le bac de sortie]]></notes>
+        </task>
+        <task id="46" name="T5. Tester la solution" color="#000000" meeting="false" start="2020-03-09" duration="4" complete="0" thirdDate="2020-01-02" thirdDate-constraint="0" expand="true"/>
+        <task id="50" name="T6.  Implémenter la communication avec l'ERP" color="#000000" meeting="false" start="2020-03-16" duration="12" complete="0" thirdDate="2020-01-23" thirdDate-constraint="0" expand="true"/>
+        <task id="120" name="T7. Test de la communication" color="#000000" meeting="false" start="2020-04-06" duration="8" complete="0" thirdDate="2019-12-30" thirdDate-constraint="0" expand="true"/>
+        <task id="53" name="T8. Création de la solution de mesure la quantité de matière première" color="#00ff00" meeting="false" start="2020-02-03" duration="8" complete="0" thirdDate="2020-01-13" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[T8. Création de la solution de mesure la quantité de matière première alimentant la machine de coupe, pesée ou vision industrielle]]></notes>
+        </task>
+        <task id="56" name="T9. Déterminer les limitations des solutions" color="#00ff00" meeting="false" start="2020-02-17" duration="8" complete="0" thirdDate="2020-01-02" thirdDate-constraint="0" expand="true"/>
+        <task id="60" name="T10. Creation de la solution" color="#00ff00" meeting="false" start="2020-03-16" duration="12" complete="0" thirdDate="2019-11-25" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[T10.Implémenter la solution selon le choix validé par l'entreprise.]]></notes>
+        </task>
+        <task id="62" name="T11. Developper la solution pour communiquer l'information et Test" color="#00ff00" meeting="false" start="2020-04-06" duration="12" complete="0" thirdDate="2020-03-09" thirdDate-constraint="0" expand="true"/>
+        <task id="67" name="T12. Identifier une solution de differnciation des cycles de production" color="#ffff00" meeting="false" start="2020-02-03" duration="4" complete="0" thirdDate="2019-12-30" thirdDate-constraint="0" expand="true"/>
+        <task id="70" name="T13. Création de la solution et Test" color="#ffff00" meeting="false" start="2020-02-10" duration="12" complete="0" thirdDate="2019-12-30" thirdDate-constraint="0" expand="true"/>
+        <task id="74" name="T14. Identification des cyles de production" color="#ffff00" meeting="false" start="2020-03-16" duration="12" complete="0" thirdDate="2019-12-30" thirdDate-constraint="0" expand="true"/>
+        <task id="77" name="T15. Création d'un interface pour la communication des données" color="#ffff00" meeting="false" start="2020-04-06" duration="8" complete="0" thirdDate="2019-12-30" thirdDate-constraint="0" expand="true"/>
+        <task id="117" name="T16. Test" color="#ffff00" meeting="false" start="2020-05-04" duration="4" complete="0" thirdDate="2019-12-30" thirdDate-constraint="0" expand="true"/>
+        <task id="83" name="T17. Identification d'une solution de comptage pour les pieces produites" color="#ff0000" meeting="false" start="2020-02-03" duration="4" complete="0" thirdDate="2019-12-30" thirdDate-constraint="0" expand="true"/>
+        <task id="86" name="T17. Création de la solution" color="#ff0000" meeting="false" start="2020-02-10" duration="8" complete="0" thirdDate="2019-12-30" thirdDate-constraint="0" expand="true"/>
+        <task id="88" name="T18. Test de la solution" color="#ff0000" meeting="false" start="2020-03-09" duration="8" complete="0" thirdDate="2019-12-30" thirdDate-constraint="0" expand="true"/>
+        <task id="100" name="T19. Implementer le comptage des pieces" color="#ff0000" meeting="false" start="2020-03-23" duration="12" complete="0" thirdDate="2019-12-30" thirdDate-constraint="0" expand="true"/>
+        <task id="102" name="T20. Test" color="#ff0000" meeting="false" start="2020-04-13" duration="12" complete="0" thirdDate="2019-12-30" thirdDate-constraint="0" expand="true"/>
+        <task id="104" name="T21. Création d'une solution pour etablir un dialogue avec l'automate" color="#0000ff" meeting="false" start="2020-02-03" duration="12" complete="0" thirdDate="2019-12-30" thirdDate-constraint="0" expand="true"/>
+        <task id="106" name="T22. Relever les parametres de production" color="#0000ff" meeting="false" start="2020-03-09" duration="8" complete="0" thirdDate="2019-12-30" thirdDate-constraint="0" expand="true"/>
+        <task id="109" name="T23. Création d'un emplacement en local" color="#0000ff" meeting="false" start="2020-03-23" duration="12" complete="0" thirdDate="2019-12-30" thirdDate-constraint="0" expand="true"/>
+        <task id="111" name="T24. Stocker les parametres de production en local" color="#0000ff" meeting="false" start="2020-04-13" duration="12" complete="0" thirdDate="2019-12-30" thirdDate-constraint="0" expand="true"/>
+        <task id="122" name="T28. Réaliser les test unitaires" color="#8cb6ce" meeting="false" start="2020-02-03" duration="48" complete="0" thirdDate="2019-12-30" thirdDate-constraint="0" expand="true"/>
+        <task id="124" name="T29. Realiser les tests d'integration" color="#8cb6ce" meeting="false" start="2020-05-18" duration="8" complete="0" thirdDate="2019-12-30" thirdDate-constraint="0" expand="true"/>
+        <task id="126" name="T30. Test de l'application en local" color="#8cb6ce" meeting="false" start="2020-05-18" duration="8" complete="0" thirdDate="2019-12-30" thirdDate-constraint="0" expand="true"/>
+        <task id="127" name="T31. Deployer et tester l'application" color="#8cb6ce" meeting="false" start="2020-05-18" duration="12" complete="0" thirdDate="2019-12-30" thirdDate-constraint="0" expand="true"/>
+        <task id="129" name="T32. Rédiger les documents ( manuel d’installation et d’utilisation) et assurer la traçabilité" color="#8cb6ce" meeting="false" start="2020-01-13" duration="68" complete="0" thirdDate="2019-12-30" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
